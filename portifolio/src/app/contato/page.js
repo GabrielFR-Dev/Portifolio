@@ -3,5 +3,5 @@ export default  function Contato() {
         <div>
             <h3>Meus proketos</h3>
         </div>
-    )
+    );
 }

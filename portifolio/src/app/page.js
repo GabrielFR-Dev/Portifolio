@@ -15,9 +15,18 @@ export default function Home() {
 
 
       <main>
+        <Apresentacao/>
         <Sobre />
         <Projetos />
       </main>
+
+      <section>
+        <Contato />
+      </section>
+
+      <footer>
+        <Rodape/>
+      </footer>
 
 
     </div>

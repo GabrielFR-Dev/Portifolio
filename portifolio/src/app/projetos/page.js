@@ -3,5 +3,5 @@ export default function Projetos() {
         <header>
             <h2>Meus projeotos</h2>
         </header>
-    )
+    );
 }
