@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Topo from "@/componentes/Topo";
+import Topo from "@/componentes/topo";
 
 export default function ClientLayout({ children }) {
   const [temaEscuro, setTemaEscuro] = useState(false);

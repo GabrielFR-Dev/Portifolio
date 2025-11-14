@@ -23,9 +23,9 @@ export default function Topo({ ehTemaEscuro, acao_onclick }) {
             <nav className={estilos.navegacao}>
                 <ul className={estilos.menu}>
                     <li><Link href="/" className={estilos.menu_link}>Inicio</Link></li>
-                    <li><Link href="/Sobre" className={estilos.menu_link}>Sobre</Link></li>
-                    <li><Link href="/Projetos" className={estilos.menu_link}>Projetos</Link></li>
-                    <li><Link href="/Contato" className={estilos.menu_link}>Contato</Link></li>
+                    <li><Link href="/sobre" className={estilos.menu_link}>Sobre</Link></li>
+                    <li><Link href="/projetos" className={estilos.menu_link}>Projetos</Link></li>
+                    <li><Link href="/contato" className={estilos.menu_link}>Contato</Link></li>
                 </ul>
             </nav>
 
@@ -43,9 +43,9 @@ export default function Topo({ ehTemaEscuro, acao_onclick }) {
             {menuAberto && (
                 <nav className={estilos.menu_mobile}>
                     <Link href="/" onClick={toggleMenu}>Inicio</Link>
-                    <Link href="/Sobre" onClick={toggleMenu}>Sobre</Link>
-                    <Link href="/Projetos" onClick={toggleMenu}>Projetos</Link>
-                    <Link href="/Contato" onClick={toggleMenu}>Contato</Link>
+                    <Link href="/sobre" onClick={toggleMenu}>Sobre</Link>
+                    <Link href="/projetos" onClick={toggleMenu}>Projetos</Link>
+                    <Link href="/contato" onClick={toggleMenu}>Contato</Link>
                     <button onClick={acao_onclick} className={estilos.botao}>
                         <Image
                             className={estilos.icones}

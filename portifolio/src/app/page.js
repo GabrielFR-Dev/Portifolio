@@ -1,12 +1,12 @@
 'use client';
-import { useState } from "react";
 
 
-import Apresentacao from "@/componentes/Apresentacao";
-import Sobre from "@/app/Sobre/page";
-import Projetos from "@/app/Projetos/page";
-import Contato from "@/app/Contato";
-import Rodape from "@/componentes/Rodape";
+
+import Apresentacao from "@/componentes/apresentacao";
+import Sobre from "@/app/sobre/page";
+import Projetos from "@/app/projetos/page";
+import Contato from "@/app/contato/page";
+import Rodape from "@/componentes/rodape";
 import estilos from "./page.module.css";
 
 export default function Home() {

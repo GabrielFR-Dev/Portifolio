@@ -1,5 +1,5 @@
 import "./globals.css";
-import ClientLayout from "@/componentes/ClientLayout/ClientLayout";
+import ClientLayout from "@/componentes/clientLayout/ClientLayout";
 
 
 export const metadata = {
