@@ -1,4 +1,5 @@
 import "./globals.css";
+import ClientLayout from "@/componentes/ClientLayout/ClientLayout";
 
 
 export const metadata = {
@@ -9,8 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body >
+      <body>
+        <ClientLayout/>
         {children}
+        
       </body>
     </html>
   );
